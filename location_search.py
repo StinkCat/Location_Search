@@ -4,7 +4,7 @@ import csv
 import requests
 import math
 
-key = '**********'  百度地图API key
+key = '**********'  #百度地图API key
 x_pi = 3.14159265358979324 * 3000.0 / 180.0
 pi = 3.1415926535897932384626  # π
 a = 6378245.0  # 长半轴
