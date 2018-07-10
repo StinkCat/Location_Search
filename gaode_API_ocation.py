@@ -179,7 +179,7 @@ def main():
     if len(csv_list) >=1:
         N = 1
         txtfile = open("./location.txt", "w", encoding='utf8')
-        txtfile.write('目标地标\t省\t市\t区\t匹配地标\t百度lng\t百度lat\tGPSlng\tGPSlat\t\n')
+        txtfile.write('目标地标\t省\t市\t区\t匹配地标\t火星lng\t火星lat\tGPSlng\tGPSlat\t\n')
         txtfile.close()
         for address in csv_list:
             results = geocode(address)
